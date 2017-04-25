@@ -1,6 +1,6 @@
 {
   "name": "template-static-list",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A library for smartly fixing template literals of lists with possibly missing values",
   "main": "index.js",
   "scripts": {
