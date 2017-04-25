@@ -23,7 +23,7 @@ const l = require('template-static-list')
 let address = l`${r.address}, ${city}, ${r.postalCode}, ${r.province}, ${r.country}`
 ```
 
-The basic idea is that if the value after a string section is null or undefined, then it and the value will be left out of the constructed string.
+The basic idea is that when a value is missing, it'll intelligently suppress the separator before or after it automatically.
 
 ## Installation
 
