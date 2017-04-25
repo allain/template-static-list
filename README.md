@@ -16,7 +16,7 @@ let address = [
 ```
 The above monstrosity is to get around the very real situation where not all components of the address are given by the user.
 
-Using `tempalate-static-list` I could achieve the same result using:
+Using `template-static-list` I could achieve the same result using:
 
 ```js
 const l = require('template-static-list')
