@@ -1,0 +1,15 @@
+{
+  "name": "template-static-list",
+  "version": "1.0.0",
+  "description": "A library for smartly fixing template literals of lists with possibly missing values",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": "https://github.com/allain/template-static-list",
+  "author": "Allain Lalonde <allain.lalonde@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "tape": "^4.6.3"
+  }
+}
