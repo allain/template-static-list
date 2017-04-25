@@ -14,7 +14,7 @@ let address = [
   r.country
 ].filter(Boolean).join(', ')
 ```
-The above monstrosity is to get around the very real situation where not all comopnents of the address are given by the user.
+The above monstrosity is to get around the very real situation where not all components of the address are given by the user.
 
 Using `tempalate-static-list` I could achieve the same result using:
 

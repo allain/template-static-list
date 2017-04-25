@@ -49,3 +49,8 @@ test('handles sequence of missing values from start', t => {
   t.equal(l`${1},${null},${null},${null}`, '1')
   t.end()
 })
+
+test('handles empty string as empty', t => {
+  t.equal(l`${''},${1}`, '1')
+  t.end()
+})
